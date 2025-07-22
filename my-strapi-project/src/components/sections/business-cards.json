@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_business_cards",
+  "info": {
+    "displayName": "Business Cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "string"
+    },
+    "card_type": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

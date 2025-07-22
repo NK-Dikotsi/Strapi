@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_events",
+  "info": {
+    "displayName": "Events"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

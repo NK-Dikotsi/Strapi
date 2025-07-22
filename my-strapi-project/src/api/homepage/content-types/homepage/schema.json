@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hero_paragraph1": {
+      "type": "blocks"
+    },
+    "hero_paragraph2": {
+      "type": "blocks"
+    },
+    "hero_paragraph3": {
+      "type": "blocks"
+    },
+    "hero_buttons": {
+      "type": "component",
+      "component": "sections.hero-buttons",
+      "repeatable": true
+    },
+    "focus_areas": {
+      "type": "component",
+      "component": "sections.focus-areas",
+      "repeatable": true
+    },
+    "business_cards": {
+      "type": "component",
+      "component": "sections.business-cards",
+      "repeatable": true
+    },
+    "news_items": {
+      "type": "component",
+      "component": "sections.news-items",
+      "repeatable": true
+    },
+    "upcoming_events": {
+      "type": "component",
+      "component": "sections.events",
+      "repeatable": true
+    },
+    "partners": {
+      "type": "component",
+      "component": "sections.partners",
+      "repeatable": true
+    }
+  }
+}
